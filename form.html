@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Biodata</legend>
+            <form action ="./response.html">
+        <label for="name">Username</label>        
+                <input type ="text" name="name" id="name" placeholder="enter your name">
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass">
+            <br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender">
+            <label for ="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Female</label>
+            <br><br>
+            <label for ="hobby">Hobbies:</label>
+            <input type="checkbox" name="hobby1" id="hobby">
+            <label for="hobby">Cricket</label>
+            <input type ="checkbox" name="hobby2" id="hobby">
+            <label for ="hobby">Football</label>
+            <br><br>
+            <label for="address">Address:</label>
+            <textarea name ="add" id="add"></textarea>
+            <br><br>
+            <label for ="mobile number">Mobile Number:</label>
+            <input type="tel" name="tel" id="tel">
+            <br><br>
+            <label for ="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="">Attempt:</label>
+            <input type="number" name="att" id="att">
+            <br><br>
+            <label for="url">Homepage:</label>
+            <input type="url" name="url" id="url">
+            <br><br>
+            <label for="file">Resume Upload:</label>
+            <input type="file" name="file" id="file">
+            <br><br>
+            <label for="lang">Select language:</label>
+            <select name ="lang" id="lang">
+                <option value="">Select</option>
+                <option value="c">c</option>
+                <option value="c++">C++</option>
+                <option value="java">Java</option>
+                <option value="phyton">Phyton</option>
+            </select>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+            </form>
+    </fieldset>
+</body>
+</html>
